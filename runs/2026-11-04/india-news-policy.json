@@ -1,0 +1,19 @@
+{
+  "agent": "india-news-policy",
+  "generated_at_ist": "2026-11-04T06:50:00+05:30",
+  "status": "failed",
+  "signal": null,
+  "signal_confidence": "low",
+  "headline": "No verifiable India policy or corporate news found for the 2026-11-03 15:30 to 2026-11-04 06:42 IST window; primary sources unreachable.",
+  "evidence": [],
+  "india_read_through": "No supported read-through. Absence of evidence here is not evidence of no news.",
+  "sectors_positive": [],
+  "sectors_negative": [],
+  "risks": ["Unseen RBI, SEBI, government or Nifty-constituent announcements may exist."],
+  "missing_data": [
+    "RBI announcements: www.rbi.org.in did not resolve (host not in allowed network domains).",
+    "SEBI orders/circulars: www.sebi.gov.in did not resolve (host not in allowed network domains).",
+    "Government/PIB, NSE and BSE filings: not retrieved; one general web search returned only undated or old items.",
+    "Corporate developments in Nifty constituents: no dated results found for the window."
+  ]
+}

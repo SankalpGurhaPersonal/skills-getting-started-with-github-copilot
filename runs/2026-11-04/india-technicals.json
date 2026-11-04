@@ -1,0 +1,25 @@
+{
+  "agent": "india-technicals",
+  "generated_at_ist": "2026-11-04T06:50:00+05:30",
+  "status": "failed",
+  "signal": null,
+  "signal_confidence": "low",
+  "headline": "No sourced 2026-11-03 index data found, so no technical signal can be supported.",
+  "evidence": [],
+  "india_read_through": "No technical read-through can be given because there are no sourced previous-session levels. Key Nifty and Bank Nifty levels are not stated, to avoid inventing numbers.",
+  "sectors_positive": [],
+  "sectors_negative": [],
+  "risks": [
+    "Search results only returned 3 November 2025 data, which is a year old and stale for this session. It was not used.",
+    "The desk has no technical view for Nifty, Sensex or Bank Nifty."
+  ],
+  "missing_data": [
+    "Nifty 50, Sensex and Bank Nifty OHLC for 2026-11-03: two web searches returned only 2025-11-03 pages (stale).",
+    "Classic pivots (P, R1, R2, S1, S2): need the previous-session OHLC, which is missing, so they were not calculated.",
+    "Support and resistance levels: no sourced levels for the current period.",
+    "20, 50 and 200 DMA: no sourced or calculable values.",
+    "RSI(14) and MACD: no sourced or calculable values.",
+    "NSE advance-decline ratio for 2026-11-03: not found.",
+    "Nifty Midcap and Smallcap trend: no 2026-11-03 data found."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "agent": "india-earnings",
+  "generated_at_ist": "2026-11-04T06:50:00+05:30",
+  "status": "partial",
+  "signal": 0,
+  "signal_confidence": "low",
+  "headline": "No verifiable post-close Nifty heavyweight results or today's results calendar found; defaulting to neutral.",
+  "evidence": [],
+  "india_read_through": "No confirmed material surprise from a Nifty heavyweight in the overnight window, so no earnings-driven tilt to the index. Stock-specific reactions cannot be named without a verified results list.",
+  "sectors_positive": [],
+  "sectors_negative": [],
+  "risks": [
+    "A heavyweight may have reported after the close on 2026-11-03 and was missed because no exchange filing or dated 2026 news source was retrievable.",
+    "Q2 FY27 season is under way (deadline 14 Nov 2026), so today's calendar may include index names."
+  ],
+  "missing_data": [
+    "Results released 2026-11-03 15:30 IST to 2026-11-04 open: searches returned only 2025 or undated pages; nseindia.com and bseindia.com filings not retrieved.",
+    "Results scheduled for 2026-11-04 with timings: no dated source found; a Kotak Neo 'Q2 results today FY 2026-27' page was found but could not be fetched (host not reachable from this session) and its date is unconfirmed.",
+    "Guidance changes and management commentary: none found for the window.",
+    "Nifty heavyweight exposure (direct or via peers): cannot be assessed without the results list."
+  ]
+}

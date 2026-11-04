@@ -1,0 +1,46 @@
+{
+  "agent": "sector-rotation",
+  "generated_at_ist": "2026-11-04T06:50:00+05:30",
+  "status": "partial",
+  "signal": null,
+  "signal_confidence": "low",
+  "headline": "No dated overnight (Nov 3 US close) data could be sourced, so every sector is neutral with low confidence.",
+  "evidence": [],
+  "india_read_through": "No sourced overnight cue is available, so no sector is called to lead or lag the Nifty. Context only, not a trade view. Two undated or older 2026 search snippets mention high oil, high US Treasury yields and the US-Iran war. They are outside the overnight window and are not used as evidence. If those conditions still hold, oil marketing companies, banks, realty and autos would be the sectors to watch, but that needs a dated Brent and US 10-year reading to confirm.",
+  "sectors_positive": [],
+  "sectors_negative": [],
+  "risks": [
+    "IT: neutral (low) - no dated Nasdaq or IT ADR (Infosys, Wipro) close found",
+    "Banks: neutral (low) - no dated US 10-year yield found",
+    "Financials (NBFCs, insurers): neutral (low) - no clear cue",
+    "Auto: neutral (low) - no dated cue",
+    "Pharma: neutral (low) - no dated cue",
+    "Metals: neutral (low) - no dated LME copper or China data found",
+    "Energy: neutral (low) - no dated Brent found",
+    "Oil marketing companies: neutral (low) - no dated Brent found",
+    "FMCG: neutral (low) - no clear cue",
+    "Realty: neutral (low) - no dated US 10-year yield found",
+    "Defence: neutral (low) - no clear cue",
+    "Other child reports in runs/2026-11-04/ were not read or cited. I could not check whether they exist."
+  ],
+  "missing_data": [
+    "Nasdaq and S&P 500 close for 2026-11-03: null, two searches returned only other dates",
+    "Brent crude overnight: null, no dated source found",
+    "US 10-year Treasury yield overnight: null, no dated source found",
+    "LME copper and China cues: null, no dated source found",
+    "IT ADR moves: null, not found"
+  ],
+  "sector_map": [
+    {"sector": "IT", "cue": "Nasdaq and IT ADRs", "direction": "neutral", "confidence": "low", "evidence_ref": null},
+    {"sector": "Banks", "cue": "US 10-year yield", "direction": "neutral", "confidence": "low", "evidence_ref": null},
+    {"sector": "Financials", "cue": "none clear", "direction": "neutral", "confidence": "low", "evidence_ref": null},
+    {"sector": "Auto", "cue": "none clear", "direction": "neutral", "confidence": "low", "evidence_ref": null},
+    {"sector": "Pharma", "cue": "none clear", "direction": "neutral", "confidence": "low", "evidence_ref": null},
+    {"sector": "Metals", "cue": "LME copper and China", "direction": "neutral", "confidence": "low", "evidence_ref": null},
+    {"sector": "Energy", "cue": "Brent", "direction": "neutral", "confidence": "low", "evidence_ref": null},
+    {"sector": "Oil marketing companies", "cue": "Brent", "direction": "neutral", "confidence": "low", "evidence_ref": null},
+    {"sector": "FMCG", "cue": "none clear", "direction": "neutral", "confidence": "low", "evidence_ref": null},
+    {"sector": "Realty", "cue": "US 10-year yield", "direction": "neutral", "confidence": "low", "evidence_ref": null},
+    {"sector": "Defence", "cue": "none clear", "direction": "neutral", "confidence": "low", "evidence_ref": null}
+  ]
+}

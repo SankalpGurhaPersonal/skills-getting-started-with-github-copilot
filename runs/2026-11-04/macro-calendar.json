@@ -1,0 +1,101 @@
+{
+  "agent": "macro-calendar",
+  "generated_at_ist": "2026-11-04T06:55:00+05:30",
+  "status": "partial",
+  "signal": null,
+  "signal_confidence": "low",
+  "headline": "No confirmed high-impact scheduled event inside 09:15-15:30 IST; US midterm aftermath, ADP/ISM services (evening IST) and BoE/NFP later in week are the main risks, but Indian-day calendar could not be confirmed.",
+  "evidence": [
+    {
+      "metric": "RBI MPC next meeting (Dec 2-4, 2026)",
+      "value": "2026-12-04 decision (not this session)",
+      "change_pct": null,
+      "as_of_ist": "2026-11-04T06:50:00+05:30",
+      "data_type": "close",
+      "source": "RBI press release on FY27 MPC calendar (via search result)",
+      "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62422"
+    },
+    {
+      "metric": "Next FOMC decision (Dec 8-9, 2026); no Fed meeting this week",
+      "value": "2026-12-09",
+      "change_pct": null,
+      "as_of_ist": "2026-11-04T06:50:00+05:30",
+      "data_type": "close",
+      "source": "fedratecalc.com (secondary; Fed site not reachable)",
+      "url": "https://fedratecalc.com/fomc-meeting-schedule/december-2026/"
+    }
+  ],
+  "india_read_through": "Nothing confirmed as scheduled for India or Asia inside Nifty hours, so event risk during the session is mostly unscheduled or headline-driven. The main overhang is the US midterm outcome (vote Nov 3 US time, results flowing into Asian hours). A divided Congress or gridlock has historically been mildly risk-positive for equities; a surprise wave outcome that lifts US yields or the dollar would be negative for Nifty via FPI flows and INR. US ADP (about 18:45 IST) and ISM services (about 20:30 IST) land after the close and could set up Thursday's gap: a strong print would raise US yields and the dollar (negative for Nifty), a weak print would help. BoE decision Nov 5 (hike to 4% expected) and US NFP Nov 6 are later-week risks that may make traders cautious.",
+  "sectors_positive": [],
+  "sectors_negative": [],
+  "risks": [
+    "US midterm results and any policy/tariff/fiscal read-through during Asian hours",
+    "Indian data releases, RBI actions, auctions and F&O or index events for Nov 4 were not confirmed; do not assume none exist",
+    "Corporate Q2 earnings from Nifty heavyweights on Nov 4 not checked",
+    "Geopolitical headlines unscheduled"
+  ],
+  "missing_data": [
+    "Confirmed India calendar for 2026-11-04 (releases, RBI, G-sec auctions, index rebalancing, earnings): search returned nothing dated; tradingeconomics.com, federalreserve.gov, simianx.ai blocked by session network settings",
+    "Asia/Europe data for Nov 4 (China Caixin services PMI, Eurozone services PMI/retail sales typical, not confirmed)",
+    "US midterm 2026 actual results: not found",
+    "Release times for ADP and ISM services are standard schedule times (08:15 and 10:00 US Eastern, EST after DST ended Nov 1, UTC-5) converted to IST, not read from a source page",
+    "Consensus figures come from secondary previews and differ between sources"
+  ],
+  "events": [
+    {
+      "time_ist": "2026-11-04 (US Nov 3 vote; results flowing through Asian hours, exact time unconfirmed)",
+      "region": "US",
+      "event": "US midterm elections aftermath (control of House/Senate)",
+      "impact": "high",
+      "during_indian_hours": null,
+      "source": "Vanderbilt Report week-ahead / search summary of previews",
+      "url": "https://vanderbiltreport.com/week-ahead-november-2-8-2026/"
+    },
+    {
+      "time_ist": "2026-11-04T18:45:00+05:30 (from 08:15 US Eastern, EST; time not confirmed from source)",
+      "region": "US",
+      "event": "ADP private payrolls (consensus about 65k per FXStreet via preview)",
+      "impact": "medium",
+      "during_indian_hours": false,
+      "source": "Lloyd Financial Group / week-ahead previews",
+      "url": "https://lloydfinancialgroup.substack.com/p/big-week-ahead-for-economic-data"
+    },
+    {
+      "time_ist": "2026-11-04T20:30:00+05:30 (from 10:00 US Eastern, EST; time not confirmed from source)",
+      "region": "US",
+      "event": "ISM services PMI for October (preview expects about 54.7 vs 54.9 prior)",
+      "impact": "medium",
+      "during_indian_hours": false,
+      "source": "Week-ahead previews (CMC Markets / TMGM)",
+      "url": "https://www.cmcmarkets.com/en-ie/news-and-analysis/the-week-ahead-ism-pmi-reports-us-jobs-report-apple-earnings"
+    },
+    {
+      "time_ist": "2026-11-05 (time unconfirmed)",
+      "region": "UK",
+      "event": "Bank of England decision, 25bp hike to 4% expected per preview",
+      "impact": "medium",
+      "during_indian_hours": false,
+      "source": "Week-ahead previews (TMGM)",
+      "url": "https://www.tmgm.com/en-eu/analysis/market-insight/week-ahead-us-midterms-nfp-rba-apple-earnings"
+    },
+    {
+      "time_ist": "2026-11-06 (08:30 US Eastern usual; time unconfirmed)",
+      "region": "US",
+      "event": "US non-farm payrolls (about 55k expected, unemployment 4.2%)",
+      "impact": "high",
+      "during_indian_hours": false,
+      "source": "Week-ahead previews (Vantage Markets)",
+      "url": "https://www.vantagemarkets.com/market-analysis/week-ahead-nfp-tech-and-midterms-vie-for-attention/"
+    },
+    {
+      "time_ist": "2026-12-04 (decision day)",
+      "region": "India",
+      "event": "RBI MPC December policy (meeting Dec 2-4); not this week",
+      "impact": "high",
+      "during_indian_hours": false,
+      "source": "RBI",
+      "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62422"
+    }
+  ],
+  "high_impact_during_market_hours": false
+}

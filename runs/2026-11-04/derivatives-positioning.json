@@ -1,0 +1,26 @@
+{
+  "agent": "derivatives-positioning",
+  "generated_at_ist": "2026-11-04T06:45:00+05:30",
+  "status": "failed",
+  "signal": null,
+  "signal_confidence": "low",
+  "headline": "No verifiable 2026-11-03 close derivatives data could be retrieved, so no positioning signal is given.",
+  "evidence": [],
+  "india_read_through": "No option-implied range, support/resistance strikes or VIX-implied move can be stated because no 2026-11-03 close data was obtained.",
+  "sectors_positive": [],
+  "sectors_negative": [],
+  "risks": [
+    "Derivatives positioning is unknown for the 2026-11-04 session; do not infer it from older snapshots."
+  ],
+  "missing_data": [
+    "India VIX last value and change: web search returned no 2026-11-03 close value (only unrelated Aug and May 2026 snapshots, stale)",
+    "Nifty PCR by OI: not found for 2026-11-03 close",
+    "Bank Nifty PCR by OI: not found for 2026-11-03 close",
+    "Highest call and put OI strikes and OI change at key strikes: not found",
+    "Max pain for current expiry: not found for 2026-11-03",
+    "Nifty futures premium/discount to spot: not found",
+    "Nifty futures build-up classification: not found",
+    "Expiry status (nearest weekly and monthly expiry dates, whether today is expiry): not confirmed from an exchange source",
+    "niftytrader.in fetch failed: host not in the session's allowed network domains; NSE pages were not reachable or tried successfully"
+  ]
+}
