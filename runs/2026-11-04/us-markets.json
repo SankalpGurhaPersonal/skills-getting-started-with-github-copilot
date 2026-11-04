@@ -1,0 +1,24 @@
+{
+  "agent": "us-markets",
+  "generated_at_ist": "2026-11-04T06:50:00+05:30",
+  "status": "failed",
+  "signal": null,
+  "signal_confidence": "low",
+  "headline": "No verifiable US close or futures data for 2026-11-03 could be found, so no signal is supported.",
+  "evidence": [],
+  "india_read_through": "No read-through can be given. No dated US close, futures, SOX, VIX, sector or Indian ADR data was found for the overnight window.",
+  "sectors_positive": [],
+  "sectors_negative": [],
+  "risks": [
+    "An undated Trading Economics snippet mentions a sharp US selloff on a Tuesday (S&P -1%, Nasdaq -1.5%). Its date could not be confirmed, so it was not used.",
+    "US midterm election day was 2026-11-03, which may raise overnight volatility. This is context only, not data."
+  ],
+  "missing_data": [
+    "S&P 500, Nasdaq 100, Dow, Russell 2000 close and % change: searches returned only 2025 or earlier 2026 articles, nothing dated 2026-11-03",
+    "SOX close and % change: no dated source found",
+    "VIX close and change: no dated source found",
+    "S&P 500, Nasdaq 100, Dow futures live price and change: no dated source found",
+    "US sector moves (technology, financials, energy): no dated source found",
+    "INFY, WIT, HDB, IBN, RDY close and % change: no dated source found"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "agent": "europe-markets",
+  "generated_at_ist": "2026-11-04T06:45:00+05:30",
+  "status": "failed",
+  "signal": null,
+  "signal_confidence": "low",
+  "headline": "No verifiable 2026-11-03 European close data could be obtained, so no signal is given.",
+  "evidence": [],
+  "india_read_through": "None. No supportable European data for the overnight window, so no read-through for Indian banks, energy or European-revenue exporters.",
+  "sectors_positive": [],
+  "sectors_negative": [],
+  "risks": [
+    "Search snippets showed conflicting, undated STOXX 600 reports (one lower, one slightly higher) that could not be tied to 2026-11-03, so they were excluded.",
+    "Europe has a low weight, so the scorer should treat this as a missing input rather than a neutral reading."
+  ],
+  "missing_data": [
+    "STOXX 600 close and % change: no dated source found for 2026-11-03",
+    "DAX close and % change: no dated source found",
+    "FTSE 100 close and % change: no dated source found",
+    "CAC 40 close and % change: no dated source found",
+    "European banks sector % change: no dated source found",
+    "European energy sector % change: no dated source found",
+    "Euro Stoxx 50 futures: no source found",
+    "Fetches of investinglive.com and tradingeconomics.com failed DNS resolution (outside the session's allowed domains)"
+  ]
+}

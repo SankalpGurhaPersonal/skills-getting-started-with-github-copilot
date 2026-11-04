@@ -1,0 +1,29 @@
+{
+  "agent": "asia-markets",
+  "generated_at_ist": "2026-11-04T06:50:00+05:30",
+  "status": "failed",
+  "signal": null,
+  "signal_confidence": "low",
+  "headline": "No dated Asian index data for the overnight window could be retrieved, so no signal is supported.",
+  "evidence": [],
+  "india_read_through": "Not assessed: no verifiable Asian index data was obtained, so no read-through on foreign flows, metals (China) or IT/electronics (Taiwan, Korea) is given.",
+  "sectors_positive": [],
+  "sectors_negative": [],
+  "risks": [
+    "Asian sentiment is unknown to this desk; other agents' signals should not assume it is neutral."
+  ],
+  "missing_data": [
+    "Nikkei 225: web searches returned only older articles (2018 to 2025), none dated 2026-11-03/04",
+    "TOPIX: same reason",
+    "Kospi: same reason",
+    "Hang Seng: same reason",
+    "Hang Seng Tech: same reason",
+    "Shanghai Composite: same reason",
+    "CSI 300: same reason",
+    "Taiex: same reason",
+    "ASX 200: same reason",
+    "Straits Times Index: same reason",
+    "Holiday status for each market on 2026-11-04 could not be confirmed",
+    "cnbc.com could not be reached (host not in the session's allowed network domains)"
+  ]
+}

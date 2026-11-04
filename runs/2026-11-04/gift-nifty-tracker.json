@@ -1,0 +1,23 @@
+{
+  "agent": "gift-nifty-tracker",
+  "generated_at_ist": "2026-11-04T06:42:00+05:30",
+  "status": "failed",
+  "signal": null,
+  "signal_confidence": "low",
+  "headline": "No GIFT Nifty or Nifty 50 close data for the 2026-11-03/04 overnight window could be found, so no signal is supported.",
+  "evidence": [],
+  "india_read_through": "No implied opening gap can be stated; no verified current GIFT Nifty price or previous Nifty close was available.",
+  "sectors_positive": [],
+  "sectors_negative": [],
+  "risks": [
+    "Opening gap is unknown; do not rely on this agent for the open.",
+    "Only undated or older GIFT Nifty snapshots surfaced in search; treated as stale per CLAUDE.md rule 4."
+  ],
+  "missing_data": [
+    "GIFT Nifty last price, change and active contract month: searches returned only undated or older pages; niftytrader.in is not reachable from this session (host not in allowed network domains).",
+    "Previous Nifty 50 official close (2026-11-03): not found in any dated source.",
+    "Implied gap in points and percent: cannot be computed without the two figures above.",
+    "Session status: no dated source confirming; NSE IX sessions are not verifiable from retrieved data.",
+    "Overnight high/low and US-close level: not found, so held-or-faded cannot be assessed."
+  ]
+}

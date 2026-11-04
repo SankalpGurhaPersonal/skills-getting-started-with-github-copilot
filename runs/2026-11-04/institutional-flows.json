@@ -1,0 +1,22 @@
+{
+  "agent": "institutional-flows",
+  "generated_at_ist": "2026-11-04T06:50:00+05:30",
+  "status": "failed",
+  "signal": null,
+  "signal_confidence": "low",
+  "headline": "No 2026-11-03 FII/DII cash or derivatives positioning data could be retrieved, so no signal is supported.",
+  "evidence": [],
+  "india_read_through": "No read-through can be given. Flow trend for large caps, private banks and the rupee is unassessed.",
+  "sectors_positive": [],
+  "sectors_negative": [],
+  "risks": [
+    "NSE provisional data, when available, is provisional and may be revised.",
+    "Flow positioning is unknown going into the session; the chief should treat this agent as unscored."
+  ],
+  "missing_data": [
+    "FII/FPI and DII net cash for 2026-11-03: search found no page with that date; direct fetch of www.nseindia.com and trendlyne.com failed because the hosts are outside the session's allowed network domains. The only snippet found was for 2026-10-28, which is stale and from a secondary site, so it was not used.",
+    "5-session trend and month-to-date (November) totals for FII and DII: no sourced figures retrieved.",
+    "FII index futures and index options net long/short positioning and change: not retrieved.",
+    "Participant-wise open interest (FII, DII, Pro, Client): not retrieved; NSE not reachable."
+  ]
+}

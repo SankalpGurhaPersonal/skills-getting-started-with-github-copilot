@@ -1,0 +1,74 @@
+{
+  "agent": "fx-rates",
+  "generated_at_ist": "2026-11-04T06:50:00+05:30",
+  "status": "partial",
+  "signal": 0,
+  "signal_confidence": "low",
+  "headline": "Rupee firmed 9 paise to 94.75 on FPI equity inflows while DXY (+0.1%) and US 10-year yield (~4.93-4.96%) edged up, so the FX/rates picture is mixed with little change.",
+  "evidence": [
+    {
+      "metric": "USD/INR onshore spot close (rupee settle)",
+      "value": 94.75,
+      "change_pct": -0.09,
+      "as_of_ist": "2026-11-03T15:30:00+05:30",
+      "data_type": "close",
+      "source": "Business Standard (PTI), via search summary; page not directly fetched. Prior close 94.84, rupee up 9 paise; change_pct is computed from those two figures. The Sen Times reported a provisional 94.71.",
+      "url": "https://business-standard.com/markets/news/rupee-extends-gains-for-third-day-settles-at-94-75-against-the-dollar-126110301693_1.html"
+    },
+    {
+      "metric": "US Dollar Index (DXY) US-session close",
+      "value": 101.86,
+      "change_pct": 0.1,
+      "as_of_ist": "2026-11-04T02:30:00+05:30",
+      "data_type": "close",
+      "source": "Babypips daily recap, via search summary; page not directly fetched. As-of is the approximate US close, since the page gave no IST time.",
+      "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-11-03"
+    },
+    {
+      "metric": "USD/JPY US-session close",
+      "value": 158.72,
+      "change_pct": 0.5,
+      "as_of_ist": "2026-11-04T02:30:00+05:30",
+      "data_type": "close",
+      "source": "Babypips daily recap, via search summary; page not directly fetched. Japan markets were closed for a holiday on Nov 3.",
+      "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-11-03"
+    },
+    {
+      "metric": "US 10-year Treasury yield (%) US-session",
+      "value": 4.96,
+      "change_pct": null,
+      "as_of_ist": "2026-11-04T02:30:00+05:30",
+      "data_type": "close",
+      "source": "Babypips daily recap, via search summary, after a strong JOLTS report; change not stated. Trading Economics shows 4.93%, up 0.02 pp, on Nov 3, so sources differ by about 3 bp. Either way the move is well under 10 bp.",
+      "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-11-03"
+    },
+    {
+      "metric": "RBI latest policy decision (Oct 7, 2026): repo rate hiked 25 bp to 5.50%, stance changed from neutral to calibrated tightening",
+      "value": 5.5,
+      "change_pct": null,
+      "as_of_ist": "2026-10-07T10:00:00+05:30",
+      "data_type": "close",
+      "source": "SCC Online, a secondary source, via search summary. The RBI's own statement was not retrieved. The reported change is +25 bp (5.25% to 5.50%). Reported SDF is 5.25% and MSF is 5.75%.",
+      "url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+    }
+  ],
+  "india_read_through": "The rupee gained slightly on foreign fund inflows into equities, which is mildly supportive of FPI sentiment. A DXY near 101.9 and US 10-year yields near 4.9-5.0% remain a headwind for foreign flows, but both moved only slightly overnight, below the thresholds for a +/-2 score. Net effect is neutral. Banks and NBFCs face an RBI that is hiking (repo 5.50%, calibrated tightening) and high US yields, which caps rate-sensitive upside in realty and autos. Exporters (IT, pharma) get little extra help from a marginally stronger rupee, though USD/INR near 94.75 remains historically weak. A firmer yen-weak dollar tone could return if US yields keep rising.",
+  "sectors_positive": [],
+  "sectors_negative": ["Realty", "Autos", "NBFCs"],
+  "risks": [
+    "Rebounding crude oil limited rupee gains and could reverse the rupee's three-day winning streak.",
+    "US yields rose after a strong JOLTS report. Further strength could lift DXY and USD/INR.",
+    "The RBI is in a tightening phase, and the stance could pressure rate-sensitive sectors.",
+    "Several figures come from search summaries, not directly fetched pages (fetch tool could not reach the source hosts), so confidence is low.",
+    "The two US 10-year sources differ (4.93% vs 4.96%)."
+  ],
+  "missing_data": [
+    "USD/INR NDF: no source found in the overnight window",
+    "USD/CNH: no value found",
+    "US 2-year Treasury yield: no value found",
+    "US 10-year yield change in bp from a primary or single dated source: not found",
+    "India 10-year government bond yield for Nov 3-4, 2026: only undated or October readings found (about 7.4%), so it is left out",
+    "Reported RBI FX intervention on or around Nov 3, 2026: no confirming report found",
+    "Pages for babypips.com and business-standard.com could not be fetched (host blocked), so values were not verified against the full page text"
+  ]
+}
