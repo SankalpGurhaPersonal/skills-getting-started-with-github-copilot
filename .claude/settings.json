@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch",
+      "Read",
+      "Edit(./runs/**)",
+      "Edit(./reports/**)",
+      "Edit(./data/**)",
+      "Bash(python3 scripts/*)",
+      "Bash(TZ=Asia/Kolkata date*)"
+    ]
+  }
+}
