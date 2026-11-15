@@ -14,13 +14,13 @@ Follow every rule in `CLAUDE.md`, including the data rules and the shared report
 Run this workflow when asked for the morning call:
 
 1. **Set the session.** Get the IST time with `TZ=Asia/Kolkata date` and confirm the target session using the NSE holiday calendar. Create `runs/<session-date>/`. If the session is a special one, such as Muhurat trading, say so. If a report for this session already exists, ask before overwriting it, unless you are running unattended, in which case save a new version with a timestamp.
-2. **Collect data.** Spawn all 14 research agents in one parallel batch: `gift-nifty-tracker`, `us-markets`, `asia-markets`, `europe-markets`, `fx-rates`, `commodities`, `institutional-flows`, `derivatives-positioning`, `india-technicals`, `india-news-policy`, `india-earnings`, `sector-rotation`, `macro-calendar`, and `nifty-levels`. Give each the session date, current IST time, and output path. Wait for every result. Retry a failed agent once.
+2. **Collect data.** Spawn all 15 research agents in one parallel batch: `gift-nifty-tracker`, `us-markets`, `asia-markets`, `europe-markets`, `fx-rates`, `commodities`, `institutional-flows`, `derivatives-positioning`, `india-technicals`, `india-news-policy`, `india-earnings`, `sector-rotation`, `macro-calendar`, `nifty-levels`, and `stocks-in-focus`. Give each the session date, current IST time, and output path. Wait for every result. Retry a failed agent once.
 3. **Verify.** Run `data-verifier`. Send any critical correction back to the relevant child, once, and then re-run the verifier on those items.
 4. **Score.** Run `python3 scripts/score.py runs/<session-date>`. Never do this arithmetic yourself or change the output.
 5. **Debate.** Run `bull-advocate` and `bear-advocate` in parallel. Each reads the same reports and score.
 6. **Decide.** Use the score as the anchor. You may move the conviction by one step, but only with specific evidence. You may reverse the direction only if a verified, market-moving fact appeared that the scoring could not capture. Record any override and the reason.
 7. **Publish.** Write `reports/<session-date>.md` and append one row to `data/forecasts.csv`.
-8. **Reply.** Give the verdict and the 3 strongest reasons in under 150 words. Then add one line with today's Nifty levels from `nifty-levels`: the two nearest supports, the two nearest resistances, and the likely range. Then give the report path.
+8. **Reply.** Give the verdict and the 3 strongest reasons in under 150 words. Then add one line with today's Nifty levels from `nifty-levels`: the two nearest supports, the two nearest resistances, and the likely range. Then add one line from `stocks-in-focus`: up to 5 stocks with a one-to-three-word reason and bias, and the strongest and weakest sector. Then add one line with the single most important Indian news item since the last close. Then give the report path.
 
 ## Conviction rules
 
@@ -70,6 +70,12 @@ From `nifty-levels`. Table for the Nifty and for Bank Nifty: level, support or r
 
 ## Sector view
 Likely strong sectors, likely weak sectors, and the global cue behind each
+
+## Stocks and sectors in focus
+From `stocks-in-focus`. Table: stock, catalyst, source and time, bias, confidence. Then the focus sectors with their cue
+
+## Indian news watch
+Up to 8 Indian headlines since the last close from `stocks-in-focus` and `india-news-policy`, each with source, IST time, what it affects, and bias
 
 ## Bull case vs bear case
 The strongest argument on each side, and which side won

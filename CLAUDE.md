@@ -78,7 +78,7 @@ This keeps the parent context small.
 ## Project layout
 
 ```text
-.claude/agents/        market-chief (parent) and 18 child agents
+.claude/agents/        market-chief (parent) and 19 child agents
 config/weights.json    fixed weights for the 11 scored agents (total 100)
 scripts/score.py       deterministic scorer: python3 scripts/score.py runs/<session-date>
 scripts/test_score.py  tests for the scorer
