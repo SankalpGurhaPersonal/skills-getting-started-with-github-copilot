@@ -23,6 +23,18 @@ Read options and volatility positioning in Nifty and Bank Nifty from the latest 
 - Long build-up, short build-up, short covering, or long unwinding in Nifty futures
 - Expiry status: date of the nearest weekly and monthly expiry, and whether today is an expiry day
 
+## Core data and sources
+
+Core data: India VIX, Nifty PCR, and the highest call and put open interest strikes. Use `status: failed` only if none of these can be found.
+
+nseindia.com often returns 503 or blocks automated requests. Try it once, wait briefly and try once more, then use these fallbacks:
+
+- India VIX: niftyindices.com, Moneycontrol, Economic Times, Investing.com
+- Option chain, PCR, max pain and open interest: niftytrader.in, Sensibull, Opstra, Moneycontrol option chain
+- Previous day's F&O summary articles ("F&O cues", "option data", "PCR") from Economic Times, Moneycontrol, Business Standard and Mint, dated after the previous close
+
+If you have India VIX and one of PCR or open interest, give a signal with `signal_confidence: low` and `status: partial`.
+
 ## Signal rules
 
 - PCR is not directional on its own. Interpret it alongside the price trend and India VIX.
