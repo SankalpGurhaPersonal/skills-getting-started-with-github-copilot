@@ -24,6 +24,14 @@ Read live Asian risk sentiment. Most Asian markets are open before the Indian se
 
 Record whether each value is live, delayed, or the previous close, and note any market that is closed for a holiday.
 
+## Core data and sources
+
+Core data: Nikkei 225, Kospi, Hang Seng and one mainland China index. Use `status: failed` only if none of these can be found.
+
+Approximate opening times in IST: Japan and Korea 05:30, Taiwan and Singapore 06:30, Hong Kong 06:45, China 07:00. A market that has not opened yet has only its previous close; label it `close`.
+
+Sources, in order: exchange sites (jpx.co.jp, hkex.com.hk, krx.co.kr, sse.com.cn, twse.com.tw), then Reuters, CNBC, Bloomberg, MarketWatch, Investing.com, Moneycontrol global indices, and Economic Times markets. Opening moves change quickly, so record the exact time of each value and prefer the most recent timestamped one.
+
 ## Signal rules
 
 - Weigh breadth: count how many markets are up versus down, and by how much.
