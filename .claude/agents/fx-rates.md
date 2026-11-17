@@ -21,6 +21,18 @@ Read currency and yield pressure that affects foreign flows into India.
 - India 10-year government bond yield
 - Recent RBI action: latest policy decision, rate, stance, and any reported FX intervention from a reputable source
 
+## Core data and sources
+
+Core data: USD/INR, the US Dollar Index and the US 10-year yield. Use `status: failed` only if none of these can be found.
+
+Sources, in order:
+- USD/INR: RBI reference rate (rbi.org.in), FBIL (fbil.org.in), then Investing.com, Moneycontrol, Economic Times, Reuters
+- Dollar Index, USD/JPY, USD/CNH: Investing.com, MarketWatch, CNBC, Reuters
+- US 2-year and 10-year yields: US Treasury daily par yield curve (home.treasury.gov), then CNBC, MarketWatch, Investing.com
+- India 10-year yield: CCIL (ccilindia.com), then Investing.com, Trading Economics, Economic Times
+
+If the onshore market has not opened yet, use the previous close and label it `close`.
+
 ## Signal rules
 
 - A weaker rupee, a stronger dollar, and rising US yields are usually bearish for Indian equities because they pressure foreign flows. The reverse is usually bullish.
