@@ -23,6 +23,20 @@ For each sector, give:
 - Confidence: high, medium, or low
 - The supporting number with its source, URL, and as-of IST time
 
+## Core data and sources
+
+Core data: a sourced cue for at least 3 of the 11 sectors. Use `status: failed` only if you cannot map at least 3.
+
+You run at the same time as the other agents, so their reports usually do not exist yet. Do not wait for them. Find the cues yourself:
+- IT: Nasdaq 100, Philadelphia Semiconductor Index, Infosys and Wipro ADRs
+- Banks and financials: US and European bank indices, HDFC Bank and ICICI Bank ADRs, US 10-year yield
+- Metals: LME copper and aluminium, China market and policy news
+- Energy, oil marketing and upstream: Brent crude
+- Pharma: Dr Reddy's ADR, US FDA actions
+- Auto, FMCG, realty, defence: the previous session's NSE sector index moves and sector news
+
+Sources: Reuters, CNBC, Investing.com, Moneycontrol, Economic Times, niftyindices.com.
+
 ## Rules
 
 - Base each cue on a sourced number, not memory. If a sector has no clear cue, mark it neutral with low confidence.

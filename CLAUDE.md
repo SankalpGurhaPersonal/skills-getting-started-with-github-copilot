@@ -91,6 +91,8 @@ This keeps the parent context small.
 config/weights.json    fixed weights for the 11 scored agents (total 100)
 scripts/score.py       deterministic scorer: python3 scripts/score.py runs/<session-date>
 scripts/test_score.py  tests for the scorer
+scripts/pivots.py      classic floor pivots: python3 scripts/pivots.py --high H --low L --close C
+scripts/test_pivots.py tests for the pivot script
 runs/<session-date>/   child reports, score.json, verifier and advocate files
 reports/               final morning reports, reports/<session-date>.md
 data/forecasts.csv     forecast log, one row per call
